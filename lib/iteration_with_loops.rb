@@ -8,7 +8,7 @@ row_index = 0
     element_index = 0 
     min_value = 50
     
-       while element_index > src[row_index].count do
+       while element_index < src[row_index].count do
          if src.min[row_index][element_index] < min_value
          min_value = src[row_index][element_index]
          end
