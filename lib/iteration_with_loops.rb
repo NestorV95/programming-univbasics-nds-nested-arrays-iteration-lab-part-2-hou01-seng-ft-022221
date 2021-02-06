@@ -15,7 +15,6 @@ row_index = 0
          end
         
        element_index +=1
-       min_value
        end
     new_array << min_value
     row_index +=1
